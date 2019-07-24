@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/basic"
+            android:title="BASIC" />
+        <item
+            android:id="@+id/trigon"
+            android:title="TRIGONOMETRY" />
+        <item
+            android:id="@+id/mat"
+            android:title="Matrix" />
+        <item
+            android:id="@+id/vec"
+            android:title="Vector" />
+        <item
+            android:id="@+id/constants"
+            android:title="Sci. Constants" />
+        <item
+            android:id="@+id/conversion"
+            android:title="Conversion" />
+
+    </group>
+
+
+
+</menu>

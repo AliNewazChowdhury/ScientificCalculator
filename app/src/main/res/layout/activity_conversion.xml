@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_conversion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8ef1e2"
+    tools:context="com.example.ali.calculator.conversion">
+    <Button
+        android:text="Length"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3fb7a4"
+        android:height="60dp"
+        android:id="@+id/button1"/>
+    <Button
+        android:text="Temparature"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3fb7a4"
+        android:layout_marginTop="60dp"
+        android:height="60dp"
+        android:id="@+id/button2"/>
+    <Button
+        android:text="area"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3fb7a4"
+        android:layout_marginTop="120dp"
+        android:height="60dp"
+        android:id="@+id/button3"/>
+
+</RelativeLayout>
